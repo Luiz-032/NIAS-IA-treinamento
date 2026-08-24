@@ -38,4 +38,4 @@
     3. Feature Extraction com K-means (6 clusters em 'Age'/'Fare', com remoção de outliers) para gerar uma nova variável de agrupamento
     4. Feature Extraction com PCA (após normalização com MinMaxScaler) reduzindo 'Age' e 'Fare' a um componente principal
     5. Target Encoding da feature 'Title' com MEstimateEncoder, suavizando a média por categoria para evitar vazamento de dados
-- Créditos: @rodolpho-neves
+- Créditos: @leoscelestee-coder
