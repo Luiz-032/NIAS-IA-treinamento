@@ -22,8 +22,8 @@
 - Problema escolhido: Titanic - Machine Learing from disaster
 - Melhor resultado obtido na submissão: 76% de acurácia
 - Técnicas utilizadas para resolver o problema:
-    1.
-    2.
-    3.
-    4.
+    1. Descarte das colunas 'sibsp', 'parch', 'ticket' e 'cabin'
+    2. Imputação de dados de média na coluna 'Age'
+    3. Padronização da coluna 'fare'
+    4. Transformação dos dados da coluna 'embarked' em valores numéricos ordinais
 - Créditos: @victortdsferreira
