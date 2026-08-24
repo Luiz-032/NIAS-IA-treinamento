@@ -17,3 +17,13 @@
     3. Padronização da coluna 'fare'
     4. Transformação dos dados da coluna 'embarked' em valores numéricos ordinais
 - Créditos: @rodolpho-neves
+
+#### Victor Ferreira
+- Problema escolhido: Titanic - Machine Learing from disaster
+- Melhor resultado obtido na submissão: 76% de acurácia
+- Técnicas utilizadas para resolver o problema:
+    1.
+    2.
+    3.
+    4.
+- Créditos: @victortdsferreira
