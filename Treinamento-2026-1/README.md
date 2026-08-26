@@ -39,3 +39,13 @@
     4. Feature Extraction com PCA (após normalização com MinMaxScaler) reduzindo 'Age' e 'Fare' a um componente principal
     5. Target Encoding da feature 'Title' com MEstimateEncoder, suavizando a média por categoria para evitar vazamento de dados
 - Créditos: @leoscelestee-coder
+
+#### Mauro Victor Carogio Manhaes de Araujo
+- Problema escolhido: Covid Dataset (Capítulo 5 - Data Visualization)
+- O que precisa ser resolvido: Analisar dados sobre a pandemia e tornar a analise de dados facil para o publico leigo por meio de graficos,
+  que informem os diferentes efeitos da pandemia nos paises 
+- Técnicas utilizadas para resolver o problema:
+    1. Filtragem de dados
+    2. Agrupamento de informacoes pertinentes
+    3. Montagem de graficos 
+- Créditos: @maurovicotcma
