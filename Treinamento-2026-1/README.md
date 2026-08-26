@@ -39,3 +39,15 @@
     4. Feature Extraction com PCA (após normalização com MinMaxScaler) reduzindo 'Age' e 'Fare' a um componente principal
     5. Target Encoding da feature 'Title' com MEstimateEncoder, suavizando a média por categoria para evitar vazamento de dados
 - Créditos: @leoscelestee-coder
+
+#### Gustavo Silva Pereira
+- Problema escolhido: Análise Exploratória Global de Dados da COVID-19
+- O que precisa ser resolvido: Analisar a evolução temporal de mortes por regiões da OMS, calcular taxas proporcionais de mortalidade e verificar a correlação entre o tamanho da população e o impacto da doença.
+- Principais resultados obtidos: Constatação de que as Américas lideraram o acumulado de mortes no período e comprovação estatística (via matriz de correlação) de que a população total de um país não afeta a sua taxa de mortes por milhão.
+- Técnicas utilizadas para resolver o problema:
+	1. Conversão da coluna de datas de string para o formato datetime
+	2. Agrupamento de dados (groupby) para sumarizar as informações por região da OMS
+	3. Cruzamento de tabelas (merge) para unificar o dataset da doença com os dados de população mundial
+	4. Construção de gráficos de linhas, dispersão e mapa de calor para correlação de Pearson
+
+Créditos: @elgusta
