@@ -18,20 +18,10 @@
     4. Transformação dos dados da coluna 'embarked' em valores numéricos ordinais
 - Créditos: @rodolpho-neves
 
-#### João Victor de Freitas Lucas
-- Problema escolhido: Titanic - Machine Learning from Disaster
-- O que precisa ser resolvido: Predizer se uma determinada pessoa sobrevive ou não ao acidente do Titanic
-- Melhor resultado obtido na submissão: 77,75% de acurácia
-- Técnicas utilizadas para resolver o problema: 
-    1. Comparação de diversos métodos e modelos
-    2. Aplicação da estratégia ordinal encoder nas features catégoricas
-    3. Imputação de dados nas colunas numéricas utilizando a estratégia most_frequent
-- Créditos: @joaovictorfl18
-
-#### Leonardo Celeste
-- Problema escolhido: Titanic - Machine Learning from Disaster (Capítulo 9 - Feature Engineering)
-- O que precisa ser resolvido: Transformar e enriquecer as variáveis brutas do dataset para que capturem melhor os padrões relacionados à sobrevivência dos passageiros, antes da etapa de modelagem
-- Melhor resultado obtido na submissão: *
+#### Victor Ferreira
+- Problema escolhido: Titanic - Machine Learing from disaster
+- O que precisa ser resolvido: Predizer se um determinado passageiro sobrevive ou não ao acidente do Titanic
+- Melhor resultado obtido na submissão: 76,5% de acurácia
 - Técnicas utilizadas para resolver o problema:
     1. Feature Selection com Mutual Information Score (`mutual_info_classif`) para medir a relevância de cada variável em relação a 'Survived'
     2. Feature Construction: extração do título social ('Title') a partir do campo 'Name', criação de 'FamilySize' (soma de 'SibSp' + 'Parch') e 'IsAlone'
@@ -49,5 +39,11 @@
 	2. Agrupamento de dados (groupby) para sumarizar as informações por região da OMS
 	3. Cruzamento de tabelas (merge) para unificar o dataset da doença com os dados de população mundial
 	4. Construção de gráficos de linhas, dispersão e mapa de calor para correlação de Pearson
-
 Créditos: @elgusta
+
+    1. Descarte das colunas 'Cabin', 'Ticket' e 'Name' (excesso de nulos ou sem uso direto)
+    2. Imputação de valores ausentes em 'Age', 'Fare' e 'Embarked' via pipelines, testando estratégias de média, mediana, zero e moda
+    3. Encoding das variáveis categóricas 'Sex' e 'Embarked' com OneHotEncoder e LabelEncoder, comparando one-hot vs ordinal
+    4. Criação de variáveis derivadas com pd.cut (AgeGroup) e pd.qcut (FareGroup)
+    5. Validação cruzada para comparar Random Forest e Gradient Boosting e escolher o modelo final
+- Créditos: @victortdsferreira
