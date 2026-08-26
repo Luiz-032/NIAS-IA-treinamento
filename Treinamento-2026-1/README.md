@@ -25,7 +25,7 @@
 - Técnicas utilizadas para resolver o problema:
     1. Descarte das colunas 'Cabin', 'Ticket' e 'Name' (excesso de nulos ou sem uso direto)
     2. Imputação de valores ausentes em 'Age', 'Fare' e 'Embarked' via pipelines, testando estratégias de média, mediana, zero e moda
-    3. Encoding das variáveis categóricas 'Sex' e 'Embarked' com OneHotEncoder e LabelEncoder, comparando one-hot vs ordina
+    3. Encoding das variáveis categóricas 'Sex' e 'Embarked' com OneHotEncoder e LabelEncoder, comparando one-hot vs ordinal
     4. Criação de variáveis derivadas com pd.cut (AgeGroup) e pd.qcut (FareGroup)
     5. Validação cruzada para comparar Random Forest e Gradient Boosting e escolher o modelo final
 - Créditos: @victortdsferreira
