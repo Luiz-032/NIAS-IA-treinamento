@@ -39,3 +39,14 @@
     4. Feature Extraction com PCA (após normalização com MinMaxScaler) reduzindo 'Age' e 'Fare' a um componente principal
     5. Target Encoding da feature 'Title' com MEstimateEncoder, suavizando a média por categoria para evitar vazamento de dados
 - Créditos: @leoscelestee-coder
+
+#### Igor Cabral
+- Problema escolhido: Titanic - Machine Learning from Disaster (Capítulo 7 Data Cleaning)
+- O que precisa ser resolvido: preparação dos dados para melhor desempenho do treinamento.
+- Técnicas utilizadas para resolver problema:
+    1. Seguir os passos dados na apostila!
+        a. realizar a remoção das colunas "Cabin" e "Ticket"
+        b. preencher as lacunas de NaNs com dados estatísticos razoáveis (no caso, mediana e moda)
+        c. realizar um cut para agrupar "Age" e "Fare".
+    2. Responder as perguntas.
+-Créditos @igorye1010
