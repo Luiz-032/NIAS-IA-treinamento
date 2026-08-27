@@ -39,5 +39,6 @@
     1. Descarte das colunas 'Cabin' e 'Ticket', devido a falta de valores;
     2. Imputação de valores nas colunas que possuíam valores ausentes (Age, Fare...), utilizando diferentes estratégias;
     3. Criação de grupos (AgeGroup e Fare Group) para facilitar o tratamento dos dados;
-    4. Cross Validation para analisar qual modelo obteve maior acurácia (Random Forest ou Gradient Boosting).
+    4. Uso do OneHotEncoder para fazer o encoding das variáveis 'Sex' e 'Embarked', que são categóricas, para evitar a perda de informação;
+    5. Cross Validation para analisar qual modelo obteve maior acurácia (Random Forest ou Gradient Boosting).
 - Créditos: @lavinianame04
