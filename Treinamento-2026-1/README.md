@@ -29,3 +29,15 @@
     4. Criação de variáveis derivadas com pd.cut (AgeGroup) e pd.qcut (FareGroup)
     5. Validação cruzada para comparar Random Forest e Gradient Boosting e escolher o modelo final
 - Créditos: @victortdsferreira
+
+#### Lavínia Name
+
+- Problema escolhido: Titanic - Machine Learning from Disaster
+- O que precisa ser resolvido: Predizer se uma determinada pessoa sobrevive ou não ao acidente do Titanic
+- Melhor resultado obtido na submissão: 67% de acurácia
+- Técnicas utilizadas para resolver o problema: 
+    1. Descarte das colunas 'Cabin' e 'Ticket', devido a falta de valores;
+    2. Imputação de valores nas colunas que possuíam valores ausentes (Age, Fare...), utilizando diferentes estratégias;
+    3. Criação de grupos (AgeGroup e Fare Group) para facilitar o tratamento dos dados;
+    4. Cross Validation para analisar qual modelo obteve maior acurácia (Random Forest ou Gradient Boosting).
+- Créditos: @lavinianame04
