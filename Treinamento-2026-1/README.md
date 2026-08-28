@@ -52,6 +52,17 @@
     5. Validação cruzada para comparar Random Forest e Gradient Boosting e escolher o modelo final
 - Créditos: @victortdsferreira
 
+#### Igor Cabral
+- Problema escolhido: Titanic - Machine Learning from Disaster (Capítulo 7 Data Cleaning)
+- O que precisa ser resolvido: preparação dos dados para melhor desempenho do treinamento.
+- Técnicas utilizadas para resolver problema:
+    1. Seguir os passos dados na apostila!
+        a. realizar a remoção das colunas "Cabin" e "Ticket"
+        b. preencher as lacunas de NaNs com dados estatísticos razoáveis (no caso, mediana e moda)
+        c. realizar um cut para agrupar "Age" e "Fare".
+    2. Responder as perguntas.
+-Créditos @igorye1010
+
 #### Mauro Victor Carogio Manhaes de Araujo
 - Problema escolhido: Covid Dataset (Capítulo 5 - Data Visualization)
 - O que precisa ser resolvido: Analisar dados sobre a pandemia e tornar a analise de dados facil para o publico leigo por meio de graficos,
@@ -61,7 +72,6 @@
     2. Agrupamento de informacoes pertinentes
     3. Montagem de graficos 
 - Créditos: @maurovicotcma
-
 
 #### Gustavo Silva Pereira
 - Problema escolhido: Análise Exploratória Global de Dados da COVID-19
