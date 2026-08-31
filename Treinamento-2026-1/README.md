@@ -97,7 +97,7 @@ Créditos: @elgusta
 - Créditos: @lavinianame04
 
 #### Luiz Octávio Garcia Teixeira
-- Problema escolhido: Titanic - Machine Learning from Disaster(caítulo 8)
+- Problema escolhido: Titanic - Machine Learning from Disaster(capítulo 8)
 - O que precisa ser resolvido: Aprimorar o modelo inicialmente produzido no capítulo 6 aplicando as técnicas dos capítulos 7 e 8
 - Melhor resultado obtido na submissão: 85.47%
 - Técnicas utilizadas para resolver o problema: 
