@@ -102,10 +102,10 @@ Créditos: @elgusta
 - Melhor resultado obtido na submissão: 85.47%
 - Técnicas utilizadas para resolver o problema: 
     1. Uso do o SimpleImputer para preencher os dados ausentes, com média, mediana ou moda;
-    2. Aplicação One Hot Encoder e Ordinal Encoder para as colunas de variáveis categóricas;
-    3. Utilização do ColumnTransformer e de Pipelines para aninhar 1 e 2, facilitar o entendimento do código e a reprodução posteriormente;
-    4. Criação o modelo utilizando Random Forest e também outro com Gradient Boosting;
-    5. Utilização do Cross-Validation para ter uma avaliação menos enviesada(a metrica usada foi accuracy) dos dois modelos;
-    6. Por fim, comparar os resultados dos dois modelos pelos resultados da validação cruzada.
+    2. Aplicação do One Hot Encoder e Ordinal Encoder para as colunas de variáveis categóricas;
+    3. Utilização do ColumnTransformer e de Pipelines para aninhar as etapas 1 e 2, facilitando o entendimento do código e a reprodução posteriormente;
+    4. Criação dos modelos utilizando Random Forest e Gradient Boosting;
+    5. Utilização do Cross-Validation para obter uma avaliação menos enviesada dos dois modelos, utilizando accuracy como métrica;
+    6. Por fim, comparação dos dois modelos com base nos resultados.
 - Créditos: @Luiz-032
 
